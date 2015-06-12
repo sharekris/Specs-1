@@ -20,15 +20,9 @@
     "git": "https://github.com/sharekris/Leanplum-iOS-SDK.git"
   },
   "frameworks": [
-    "CFNetwork",
-    "Foundation",
-    "Security",
+    "CoreLocation",
     "SystemConfiguration",
     "UIKit"
-  ],
-  "weak_frameworks": [
-    "AdSupport",
-    "StoreKit"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
