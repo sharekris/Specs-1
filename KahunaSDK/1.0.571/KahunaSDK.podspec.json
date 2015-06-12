@@ -1,0 +1,33 @@
+{
+  "name": "KahunaSDK",
+  "version": "1.0.571",
+  "summary": "KahunaSDK",
+  "description": "KahunaSDK for tracking events for use in the Kahuna Engagement Engine.",
+  "homepage": "https://www.Kahuna.com",
+  "license": {
+    "type": "Commercial",
+    "text": "See https://www.Kahuna.com/legal/"
+  },
+  "authors": {
+    "Kahuna": "support@Kahuna.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "http": "http://storage.googleapis.com/kahuna-mobile-public/KahunaSDK.zip"
+  },
+  "frameworks": [
+    "CoreLocation",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "preserve_paths": "Kahuna.framework",
+  "documentation_url": "https://www.Kahuna.com/docs#/docs",
+  "public_header_files": "Kahuna.framework/Headers/*.h",
+  "vendored_frameworks": "Kahuna.framework"
+}
