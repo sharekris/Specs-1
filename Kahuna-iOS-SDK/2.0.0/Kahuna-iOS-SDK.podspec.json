@@ -17,7 +17,7 @@
   },
   "requires_arc": true,
   "source": {
-    "git": "https://github.com/sharekris/Leanplum-iOS-SDK.git"
+    "http": "http://storage.googleapis.com/kahuna-mobile-public/Kahuna-iOS-SDK.zip"
   },
   "frameworks": [
     "CoreLocation",
