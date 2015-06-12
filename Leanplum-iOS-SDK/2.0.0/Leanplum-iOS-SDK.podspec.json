@@ -17,7 +17,7 @@
   },
   "requires_arc": true,
   "source": {
-    "http": "http://storage.googleapis.com/kahuna-mobile-public/Leanplum-iOS-SDK.zip"
+    "git": "https://github.com/Leanplum/Leanplum-iOS-SDK.git"
   },
   "frameworks": [
     "Foundation",
