@@ -1,0 +1,40 @@
+{
+  "name": "Kahuna-iOS-SDK",
+  "version": "2.1.0",
+  "summary": "Mobile A/B testing, personalization & analytics in one powerful platform.",
+  "description": "Kahuna! Mobile A/B testing, personalization & analytics in one powerful platform.",
+  "homepage": "https://www.Kahuna.com",
+  "license": {
+    "type": "Commercial",
+    "text": "See https://www.Kahuna.com/tos"
+  },
+  "authors": {
+    "Kahuna": "support@Kahuna.com"
+  },
+  "social_media_url": "https://twitter.com/Kahuna",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/sharekris/Leanplum-iOS-SDK.git"
+  },
+  "frameworks": [
+    "CFNetwork",
+    "Foundation",
+    "Security",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "weak_frameworks": [
+    "AdSupport",
+    "StoreKit"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "preserve_paths": "Kahuna.framework",
+  "documentation_url": "https://www.Kahuna.com/docs#/docs",
+  "public_header_files": "Kahuna.framework/Headers/*.h",
+  "vendored_frameworks": "Kahuna.framework"
+}
