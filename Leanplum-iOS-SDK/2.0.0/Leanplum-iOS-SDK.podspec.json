@@ -1,0 +1,33 @@
+{
+  "name": "Leanplum-iOS-SDK",
+  "version": "2.0.0",
+  "summary": "Leanplum platform.",
+  "description": "Leanplum is the SDK platform",
+  "homepage": "https://www.leanplum.com",
+  "license": {
+    "type": "Commercial",
+    "text": "See https://www.leanplum.com/tos"
+  },
+  "authors": {
+    "Leanplum": "support@kahuna.com"
+  },
+  "social_media_url": "https://twitter.com/kahuna",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "http": "http://storage.googleapis.com/kahuna-mobile-public/Leanplum-iOS-SDK.zip"
+  },
+  "frameworks": [
+    "Foundation",
+    "SystemConfiguration"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "preserve_paths": "Leanplum.framework",
+  "documentation_url": "https://www.leanplum.com/contact/",
+  "public_header_files": "Leanplum.framework/Headers/*.h",
+  "vendored_frameworks": "Leanplum.framework"
+}
