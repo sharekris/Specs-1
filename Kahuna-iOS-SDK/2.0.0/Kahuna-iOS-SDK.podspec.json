@@ -1,6 +1,6 @@
 {
   "name": "Kahuna-iOS-SDK",
-  "version": "2.1.0",
+  "version": "2.0.0",
   "summary": "Mobile A/B testing, personalization & analytics in one powerful platform.",
   "description": "Kahuna! Mobile A/B testing, personalization & analytics in one powerful platform.",
   "homepage": "https://www.Kahuna.com",
@@ -13,7 +13,7 @@
   },
   "social_media_url": "https://twitter.com/Kahuna",
   "platforms": {
-    "ios": "5.0"
+    "ios": "6.0"
   },
   "requires_arc": true,
   "source": {
