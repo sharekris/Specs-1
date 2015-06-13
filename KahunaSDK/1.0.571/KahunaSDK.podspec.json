@@ -16,7 +16,7 @@
   },
   "requires_arc": true,
   "source": {
-    "http": "http://storage.googleapis.com/kahuna-mobile-public/KahunaSDK.zip"
+    "http": "http://storage.googleapis.com/kahuna-mobile-public/kahuna_iosframework_571.zip"
   },
   "frameworks": [
     "CoreLocation",
