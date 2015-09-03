@@ -24,5 +24,6 @@ Pod::Spec.new do |s|
   s.preserve_paths = "Kahuna*"
   s.public_header_files = "Kahuna.framework/Headers/*.h"
   s.vendored_frameworks = "Kahuna.framework"
+  s.resources = ["KahunaInAppMessageView.h", "KahunaInAppMessageView.m"]
   s.frameworks = 'Foundation', 'SystemConfiguration', 'CoreLocation'
 end
