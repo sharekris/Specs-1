@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Kahuna"
-  s.version          = "2.0.4"
+  s.version          = "2.0.6"
   s.summary          = "Kahuna iOS SDK"
   s.description      = <<-DESC
                        	Kahuna tracks events for use in the Kahuna Engagement Engine.
