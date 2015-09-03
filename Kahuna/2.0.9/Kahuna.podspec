@@ -21,7 +21,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
-  s.preserve_paths = "Kahuna.*"
+  s.preserve_paths = "Kahuna*"
+  s.public_header_files = "Kahuna.framework/Headers/*.h"
   s.vendored_frameworks = "Kahuna.framework"
   s.frameworks = 'Foundation', 'SystemConfiguration', 'CoreLocation'
 end
