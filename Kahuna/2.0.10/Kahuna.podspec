@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.author           = { "Kahuna" => "support@kahuna.com" }
-  s.source           = { :http => "https://storage.googleapis.com/kahuna-mobile-public/kahuna_iosframework_podtest2.zip" }
+  s.source           = { :http => "https://storage.googleapis.com/kahuna-mobile-public/kahuna_iosframework_2.0.3_with_inapp_templates.zip" }
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
