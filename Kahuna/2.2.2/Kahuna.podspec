@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Kahuna"
-  s.version          = "2.0.5"
+  s.version          = "2.2.2"
   s.summary          = "Kahuna iOS SDK"
   s.description      = <<-DESC
                        	Kahuna tracks events for use in the Kahuna Engagement Engine.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.author           = { "Kahuna" => "support@kahuna.com" }
-  s.source           = { :http => "https://storage.googleapis.com/kahuna-mobile-public/kahuna_iosframework_2.0.5.zip" }
+  s.source           = { :http => "https://storage.googleapis.com/kahuna-mobile-public/kahuna_iosframework_2.2.2.zip" }
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
